@@ -1,5 +1,4 @@
 FROM n3ziniuka5/ubuntu-oracle-jdk:14.04-JDK8u25
-MAINTAINER Laurynas Tretjakovas "laurynas.tretjakovas@gmail.com"
 
 RUN apt-get install -y --no-install-recommends unzip && \
     wget http://apache.mirror.serveriai.lt/lucene/solr/4.10.3/solr-4.10.3.zip && \
